@@ -1,5 +1,5 @@
 
-YouTube video downloder
+YouTube video convert to mp3
 ==============================
 
 ## Run via docker
