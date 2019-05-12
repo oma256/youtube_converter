@@ -21,3 +21,5 @@ $ docker-compose up --build
 | `POSTGRES_PASSWORD`  | Postgres password |  postgres    |
 | `POSTGRES_DB`  | Postgres database name | video-converter-db |
 | `PGDATA`  | Postgres volume | /var/lib/postgresql/data |
+| `EMAIL_HOST_USER` | Sender email | example@gmail.com |
+| `EMAIL_HOST_PASSWORD` | Sender password | password |
