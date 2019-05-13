@@ -15,7 +15,7 @@
             {% csrf_token %}
             {{ form|crispy }}
             <input type="submit" value="convert and send to email"
-                   class="btn btn-info btn-block">
+                   class="btn btn-info btn-block" onclick="getAnswer()">
         </form>
     </div>
 </div>
