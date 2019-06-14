@@ -1,11 +1,7 @@
 from django.shortcuts import render
-from django.http import HttpResponsePermanentRedirect
-
-import youtube_dl
-from django.conf import settings
 
 from .forms import DownloadForm
-from .tasks import convert_to_mp3, send_email
+from .tasks import convert_to_mp3
 
 
 def index(request):
