@@ -16,6 +16,7 @@ youtube-dl = "*"
 django-crispy-forms = "==1.7.2"
 validate-email = "*"
 requests = "*"
+coverage = "*"
 
 [requires]
 python_version = "3.7"
